@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<script>
+
+function myReloader(img, url) {
+  var d = new Date(); 
+  document.getElementById(img.id).src = url + "?ver=" + d.getTime()
+}
+
+</script>  
+<style>
+
+#phone8841_container {
+    background: url('frame8841.png') no-repeat top left transparent;
+    background-position-x: 0px;
+    background-size: 100%;
+    width: 900px;
+    height: 700px;
+    position: relative;
+    margin-bottom: 0;    
+}
+#phone8841_container img {
+    position: absolute;
+    top: 4px; /* Adjust top position */
+    left: 74px; /* Adjust left position */
+    transform: scale(.63);
+}
+
+</style>
+
+<style>
+body {
+  background-color: #e6f5ff;
+  margin-left: 0;
+  margin-bottom: 0;
+  
+}
+</style>
+
+<title>8841</title>
+</head>
+<body scroll="no" style="overflow: hidden">
+
+<div id="phone8841_container">
+      <img src="http://PHONE-IP/admin/screendump.bmp" alt="8841" id='p8841' onload="myReloader(this, 'http://PHONE-IP/admin/screendump.bmp')">
+</div>
+
+</body>
+</html>

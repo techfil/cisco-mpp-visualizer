@@ -1,0 +1,31 @@
+User Agreement for Cisco Brand Exchange
+Content Use Agreement
+By downloading these assets, you accept this Agreement and agree to be bound by the following terms.
+
+Usage Rights
+Unlimited, worldwide, print and web unless otherwise stated in any data field attached to the assets. Limited usage information is stated in, but not limited to, the following fields: Asset Title, Asset Description, Usage Notice, Version Description, Legal Rights, Usage Expiration Date, Expiration Date. It is your responsibility as the end user of the assets to check all asset details to see if any limitations are applied. Please note, the exact expiration date and usage rights are specific to each asset.
+
+Obligations
+Cisco has purchased specific usage rights for these assets. It is your responsibility as the end user of these assets to check all asset details, usage notices, and expiration dates. Use of any assets after their specified expiration date is strictly prohibited.
+
+No Sublicense
+These assets are licensed to Cisco Systems, Inc. They may not be sublicensed or transferred to any third party, unless otherwise stated.
+
+Restrictions
+Cisco partners and other third parties may only use assets consisting of product photography. If the Cisco partner or other third-party relationship ends for any reason, this Agreement ends, and the images may no longer be used.
+
+Product Photography
+Cisco allows partners and other third parties to use Cisco product photography, without the need for a written license, under the following conditions:
+• The use does not disparage Cisco or imply endorsement by Cisco.
+• The images are not used to advertise any Cisco competitor’s products or in conjunction with advertising for Cisco competitor’s products.
+• The photography is not changed or manipulated in any way (apart from resizing and cropping).
+• Each use is accompanied by the following credit line and notice: “Courtesy of Cisco Systems, Inc. Unauthorized use not permitted.”
+• No trademark of Cisco Systems, Inc., or its subsidiaries or affiliates, is used (apart from the incidental appearance of such trademarks in the photography provided by Cisco).
+• Use of product photography is restricted to the following: print and web usage (excluding billboards) or in materials with print runs over 100,000 copies (unless otherwise stated in any data field attached to the image).
+
+General
+ASSETS ARE PROVIDED “AS IS” WITHOUT REPRESENTATION, WARRANTY OR CONDITION OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED REPRESENTATIONS, WARRANTIES OR CONDITIONS OF MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.
+
+Cisco reserves the right to change or modify any of the terms and conditions, asset data, guidelines, or policies at any time without notice.
+
+© 2022 Cisco Systems, Inc. All rights reserved.
