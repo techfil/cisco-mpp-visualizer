@@ -5,10 +5,25 @@
 <meta charset="UTF-8">
 <script>
 
+let IP = "localhost";
+let sdURL = "http://" + IP + "/admin/screendump.bmp"
+
 function myReloader(img, url) {
   var d = new Date(); 
   document.getElementById(img.id).src = url + "?ver=" + d.getTime()
 }
+
+window.addEventListener('load', function () {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (!(urlParams.has('ip'))) {
+	alert("You need to specify the IP address of the phone in the URL, with ?ip=AddressOfThePhone");
+  } 
+  else {
+	IP = urlParams.get('ip');
+	sdURL = "http://" + IP + "/admin/screendump.bmp"
+	document.getElementById("p8841").src = sdURL; 
+  }
+})
 
 </script>  
 <style>
@@ -45,7 +60,7 @@ body {
 <body scroll="no" style="overflow: hidden">
 
 <div id="phone8841_container">
-      <img src="http://PHONE-IP/admin/screendump.bmp" alt="8841" id='p8841' onload="myReloader(this, 'http://PHONE-IP/admin/screendump.bmp')">
+      <img src="" alt="8841" id='p8841' onload="myReloader(this, sdURL)" >
 </div>
 
 </body>

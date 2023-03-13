@@ -7,17 +7,31 @@ This is typically used when you want to demo what is happening on the phone to a
 
 ### Requirements
 
+The setup has been tested with MPP firmware 11.3 and early versions of 12.0 as of March 2023.  
+It is possible that future changes in the firmware could make this setup unusable.
+
 1. The phones must not have password-restricted admin access (Note: all phones running on Webex Calling **are** password restricted);
 2. You must have direct network connectivity to the phone's web interface.
 
-#### Notes
+#### Note
 
 Phones do not allow for a refresh shorter than approximately 2 seconds. So keep in mind the display will necessarily exibit some lag between any action taken on the phone and the corresponding reflection on the screenshot.
 
 ### Instructions
 
-1. Modify the html files by replacing every occurrence of the "PHONE-IP" string with the actual IP address of the MPP Phone in your network;
-2. Serve the page from any web server.
+1. Store the templates with the respective frame pictures in a folder on your web server;
+1. Start serving the page templates from your web server of choice (also a local python http server will do just fine);
+2. Open the URL destination of your page by adding the URL parameter “ip=nn.nn.nn.nn”, where nn.nn.nn.nn is the IP address of the IP Phone.
+
+#### Example
+
+`http://webserver/7821.html?ip=192.0.2.1`
+
+Where 192.0.2.1 is the example IPv4 address of the phone (typically received from the DHCP).
+
+#### Note
+
+The phone might not serve the request if there is a Referer header in it. To work around this you can use the `network.http.sendRefererHeader` in Firefox (or any equivalent mechanism in Chromium). If you find a better solution please submit it.
 
 ### About the Phone Images
 
