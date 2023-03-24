@@ -31,7 +31,7 @@ Where 192.0.2.1 is the example IPv4 address of the phone (typically received fro
 
 #### Note
 
-The phone might not serve the request if there is a Referer header in it. To work around this you can use the `network.http.sendRefererHeader` in Firefox (or any equivalent mechanism in Chromium). If you find a better solution please submit it.
+The phone might not serve the request if there is a Referer header in it. To work around this I originally changed the `network.http.sendRefererHeader` flag in Firefox (or any equivalent mechanism in Chromium), but this is not necessary anymore thanks to an improvement in the template related to [referrer policies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy#integration_with_html) in HTML.
 
 ### About the Phone Images
 
