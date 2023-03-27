@@ -1,7 +1,10 @@
 # Cisco MPP IP Phone Screen Visualizer
 
-You can use these HTML templates to export in near-real-time the content of a Cisco IP Phone display (running the MPP firmware) and show it inside a high-res frame picture representing the same phone model, on your screen.  
-This is typically used when you want to demo what is happening on the phone to an audience to whom you are projecting the screen of your computer.
+With these HTML templates, you can continously fetch the content of a Cisco IP Phone's display and present it on your laptop inside a realistic high-res phone frame.
+
+This is an excellent tool for demos, or technical meetings where the audience is interested in seeing what happens inside a phone.
+
+To learn more about this little tool, go to [https://retibus.net/blog/cisco-mpp-visualizer/](https://retibus.net/blog/cisco-mpp-visualizer/).
 
 ![Sample Result](sample.png)
 
@@ -27,7 +30,7 @@ Phones do not allow for a refresh shorter than approximately 2 seconds. So keep 
 
 `http://webserver/7821.html?ip=192.0.2.1`
 
-Where 192.0.2.1 is the example IPv4 address of the phone (typically received from the DHCP).
+In this example 192.0.2.1 is the IPv4 address of the phone (typically received from the DHCP).
 
 #### Note
 
